@@ -24,7 +24,7 @@ class Pokemon
     db.execute("UPDATE pokemon SET hp = ? WHERE id = ?", [num], [self.id])
     self.hp = num
   end
-end
+  
   
   
   
